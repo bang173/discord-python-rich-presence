@@ -6,11 +6,12 @@
 
 # Данные
 <{
+
     "appID": ""
     "desc1": "",
     "desc2": "",
     "useTimestamp": false,
-
+    
     "useImages": false,
     "imageData": {
         "largeImage": {
@@ -32,7 +33,10 @@
 # Приложение Discord
 ---
 `Я не буду вам показывать как создать приложение в Discord.`
-<{"appID": ""}>
+<
+
+    {"appID": ""}
+>
 В данное поле вам надо вставить Client ID вашего приложения, и оставить его в формате текста не переводя в числовой.
 #### Rich Presence -> Art Assets
 ---
@@ -58,7 +62,9 @@
 + *true* = да
 + *false* = нет
 
-<"imageData": {
+<
+
+    "imageData": {
         "largeImage": {
             "key": "",
             "text": ""
@@ -82,7 +88,9 @@
 + *true* = да
 + *false* = нет
 
-<"partyInfo": {
+<   
+    
+    "partyInfo": {
         "partyID": "",
         "partySize": 1,
         "partyMax": 3
