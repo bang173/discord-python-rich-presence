@@ -5,38 +5,37 @@
 Исполняемый файл можно получить тут: https://disk.yandex.by/d/EzJ1ZBnUgfDb9g
 
 # Данные
-<{
 
-    "appID": ""
-    "desc1": "",
-    "desc2": "",
-    "useTimestamp": false,
-    
-    "useImages": false,
-    "imageData": {
-        "largeImage": {
-            "key": "",
-            "text": ""
+
+    <{
+        "appID": ""
+        "desc1": "",
+        "desc2": "",
+        "useTimestamp": false,
+
+        "useImages": false,
+        "imageData": {
+            "largeImage": {
+                "key": "",
+                "text": ""
+            },
+            "smallImage": {
+                "key": "",
+                "text": ""
+            }
         },
-        "smallImage": {
-            "key": "",
-            "text": ""
+        "useParty": false,
+        "partyInfo": {
+            "partyID": "",
+            "partySize": 1,
+            "partyMax": 3
         }
-    },
-    "useParty": false,
-    "partyInfo": {
-        "partyID": "",
-        "partySize": 1,
-        "partyMax": 3
-    }
-}>
+    }>
 # Приложение Discord
 ---
 `Я не буду вам показывать как создать приложение в Discord.`
-<
 
-    {"appID": ""}
->
+    <{"appID": ""}>
 В данное поле вам надо вставить Client ID вашего приложения, и оставить его в формате текста не переводя в числовой.
 #### Rich Presence -> Art Assets
 ---
@@ -62,18 +61,17 @@
 + *true* = да
 + *false* = нет
 
-<
 
-    "imageData": {
-        "largeImage": {
-            "key": "",
-            "text": ""
-        },
-        "smallImage": {
-            "key": "",
-            "text": ""
+        "imageData": {
+            "largeImage": {
+                "key": "",
+                "text": ""
+            },
+            "smallImage": {
+                "key": "",
+                "text": ""
+            }
         }
-    }>
 
 **imageData** содержит в себе объекты **largeImage** и **smallImage**.
 > В каждом есть **key** и **text**:
@@ -87,14 +85,12 @@
 > Параметры
 + *true* = да
 + *false* = нет
-
-<   
     
-    "partyInfo": {
-        "partyID": "",
-        "partySize": 1,
-        "partyMax": 3
-    }>
+        "partyInfo": {
+            "partyID": "",
+            "partySize": 1,
+            "partyMax": 3
+        }
 Данный блок содержит в себе информацию о пати. **partyID** должен содержать в себе что угодно, но не пустую строку *(что угодно значит любой текст)*.
 **partySize** показывает информацию о количестве игроков в пати, а **partyMax** показывает вместимость пати.
 
