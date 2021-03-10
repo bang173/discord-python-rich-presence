@@ -1,22 +1,23 @@
 {
-    "desc1": "привет",
-    "desc2": "какдела",
-    "useTimestamp": true,
+    "appID": "",
+    "desc1": "",
+    "desc2": "",
+    "useTimestamp": false,
 
-    "useImages": true,
+    "useImages": false,
     "imageData": {
         "largeImage": {
-            "key": "large",
-            "text": "Отсос"
+            "key": "",
+            "text": ""
         },
         "smallImage": {
-            "key": "lbulb",
-            "text": "хуй"
+            "key": "",
+            "text": ""
         }
     },
-    "useParty": true,
+    "useParty": false,
     "partyInfo": {
-        "partyID": "31223412",
+        "partyID": "",
         "partySize": 1,
         "partyMax": 3
     }
