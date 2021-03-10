@@ -1,0 +1,23 @@
+{
+    "desc1": "привет",
+    "desc2": "какдела",
+    "useTimestamp": true,
+
+    "useImages": true,
+    "imageData": {
+        "largeImage": {
+            "key": "large",
+            "text": "Отсос"
+        },
+        "smallImage": {
+            "key": "lbulb",
+            "text": "хуй"
+        }
+    },
+    "useParty": true,
+    "partyInfo": {
+        "partyID": "31223412",
+        "partySize": 1,
+        "partyMax": 3
+    }
+}
