@@ -1,7 +1,7 @@
 Перед началом использования Rich Presence внесите данные в RischPresenceData.json
 ---
 
-### Получить испольняему версию (exe)
+### Получить исполняемую версию (exe)
 Исполняемый файл можно получить тут: https://disk.yandex.by/d/EzJ1ZBnUgfDb9g
 Или тут: https://www.mediafire.com/file/0gh5msn21ymy13v/Discord_RichPresence_by_bangakek.rar/file
 
